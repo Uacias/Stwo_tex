@@ -1,0 +1,97 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{cmap}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry{a4paper}
+
+\title{Propozycja Tematu Pracy Magisterskiej: Wykorzystanie zk-Proof (STEW) do Nowej Metody Autentykacji}
+\author{Twoje Imię i Nazwisko}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+Celem pracy magisterskiej jest opracowanie nowej metody autentykacji użytkowników w systemach informatycznych z wykorzystaniem zero-knowledge proofs (zk-Proof), w szczególności algorytmu STARK. Tradycyjne metody autentykacji, oparte na przesyłaniu hasła na serwer, są podatne na różnorodne ataki. Praca ta proponuje innowacyjne podejście, w którym użytkownik udowadnia znajomość swojego hasła bez konieczności przesyłania go wprost.
+
+W ramach tej pracy, szczególną uwagę poświęcono Stwo Proverowi, który jest szybkim, otwartoźródłowym proverem, 
+który implementuje przełomowy protokół Circle STARK. Dzięki temu, Stwo odblokowuje pełny potencjał wysoce 
+efektywnego liczby pierwszej Mersenne'a M31, przynosząc korzyści w przestrzeni zk-proof i blockchain. 
+Kluczowe cechy Stwo Prover, takie jak Circle STARK, otwartoźródłowość, skalowalność i kompatybilność, 
+są istotne dla opracowywanej metody autentykacji, oferując niezrównaną wydajność dowodzenia. 
+
+Podsumowując, Stwo Prover i jego wykorzystanie w kontekście zero-knowledge proofs stanowi kluczowy element tej pracy magisterskiej, oferując nową, bezpieczniejszą i bardziej efektywną metodę autentykacji użytkowników w systemach informatycznych.
+
+\section{Wstępny Plan Pracy}
+\subsection{Rozdział 1: Wprowadzenie}
+\begin{itemize}
+    \item Cel pracy
+    \item Zakres pracy
+    \item Struktura pracy
+\end{itemize}
+
+\subsection{Rozdział 2: Teoretyczne Podstawy zk-Proof}
+\begin{itemize}
+    \item Wprowadzenie do kryptografii
+    \item Zero-Knowledge Proofs: definicje i właściwości
+    \item Algorytm STARK: zasady działania
+    \item Stwo Prover: opis i właściwości
+    \item Przegląd istniejących rozwiązań i ich ograniczenia
+\end{itemize}
+
+\subsection{Rozdział 3: Projekt Systemu Autentykacji}
+\begin{itemize}
+    \item Wymagania systemowe
+    \item Architektura systemu
+    \item Wybór algorytmów kryptograficznych: Pedersen/Poseidon
+    \item Mechanizm challenge-response
+\end{itemize}
+
+\subsection{Rozdział 4: Implementacja}
+\begin{itemize}
+    \item Środowisko programistyczne i narzędzia
+    \item Implementacja po stronie przeglądarki: obliczanie hash i generowanie zk-Proof
+    \item Implementacja po stronie serwera: weryfikacja zk-Proof
+    \item Integracja z istniejącymi systemami autentykacji
+\end{itemize}
+
+\subsection{Rozdział 5: Testowanie i Walidacja}
+\begin{itemize}
+    \item Scenariusze testowe
+    \item Bezpieczeństwo systemu
+    \item Wydajność i skalowalność
+    \item Porównanie z tradycyjnymi metodami autentykacji
+\end{itemize}
+
+\subsection{Rozdział 6: Dyskusja}
+\begin{itemize}
+    \item Zalety i wady proponowanego rozwiązania
+    \item Możliwości dalszego rozwoju
+    \item Potencjalne zagrożenia i sposoby ich mitigacji
+\end{itemize}
+
+\subsection{Rozdział 7: Podsumowanie}
+\begin{itemize}
+    \item Wnioski
+    \item Osiągnięcia pracy
+    \item Przyszłe kierunki badań
+\end{itemize}
+
+\section*{Bibliografia}
+
+\section*{Załączniki}
+Opis Wybranych Narzędzi i Bibliotek:
+\begin{itemize}
+    \item STEW
+    \item Cartridge Oasis
+    \item Stone Prover
+    \item State Channel Framework
+    \item Rust Programming Language
+    \item WebAssembly
+    \item Yew Framework
+\end{itemize}
+
+\end{document}
