@@ -12,9 +12,13 @@
 \author{Filip Gumuła}
 \date{\today}
 
+
 \begin{document}
 
 \maketitle
+\newpage
+\tableofcontents 
+\newpage
 
 \section{Wprowadzenie}
 Celem pracy magisterskiej jest opracowanie nowej metody autentykacji użytkowników w systemach informatycznych z wykorzystaniem zero-knowledge proofs (zk-Proof), 
@@ -31,7 +35,7 @@ który może być wykorzystywany w różnych środowiskach, takich jak zdecentra
 Podsumowując, praca ta koncentruje się na zastosowaniu SNARK w procesach autentykacji, przy jednoczesnym wykorzystaniu Noir do definiowania i generowania dowodów zk. 
 Efektem końcowym będzie działający prototyp, który umożliwi użytkownikom bezpieczne uwierzytelnianie bez konieczności przesyłania haseł
 
-
+\newpage
 \section{Teoretyczne Podstawy zk-Proof}
 
 \subsection{Wprowadzenie do kryptografii}
@@ -215,43 +219,6 @@ Dowody z wiedzą zerową mają szerokie zastosowanie w różnych obszarach krypt
     \item \textbf{Bezpieczne głosowanie elektroniczne} – systemy e-voting mogą wykorzystywać ZKP do weryfikacji głosów bez ujawniania ich treści.
 \end{itemize}
 
-\subsection{Rozdział 3: Projekt Systemu Autentykacji}
-\begin{itemize}
-    \item Wymagania systemowe
-    \item Architektura systemu
-    \item Wybór algorytmów kryptograficznych: Pedersen/Poseidon
-    \item Mechanizm challenge-response
-\end{itemize}
-
-\subsection{Rozdział 4: Implementacja}
-\begin{itemize}
-    \item Środowisko programistyczne i narzędzia
-    \item Implementacja po stronie przeglądarki: obliczanie hash i generowanie zk-Proof
-    \item Implementacja po stronie serwera: weryfikacja zk-Proof
-    \item Integracja z istniejącymi systemami autentykacji
-\end{itemize}
-
-\subsection{Rozdział 5: Testowanie i Walidacja}
-\begin{itemize}
-    \item Scenariusze testowe
-    \item Bezpieczeństwo systemu
-    \item Wydajność i skalowalność
-    \item Porównanie z tradycyjnymi metodami autentykacji
-\end{itemize}
-
-\subsection{Rozdział 6: Dyskusja}
-\begin{itemize}
-    \item Zalety i wady proponowanego rozwiązania
-    \item Możliwości dalszego rozwoju
-    \item Potencjalne zagrożenia i sposoby ich mitigacji
-\end{itemize}
-
-\subsection{Rozdział 7: Podsumowanie}
-\begin{itemize}
-    \item Wnioski
-    \item Osiągnięcia pracy
-    \item Przyszłe kierunki badań
-\end{itemize}
 
 \bibliographystyle{plain}  
 \bibliography{bibliografia}
